@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NG CAR SERVICE</title>
+</head>
+<header>
+    <nav>
+        <div class="proximo">
+            <ul>
+                <li><a href="../index.html">página inicial</a></li>
+                <li><a href="paginalogin.html">login</a></li>
+                <li><a href="../paginaservicos.html">serviços</a></li>
+                <li><a href="../paginasobre.html">sobre</a></li>
+                <li><a href="../paginaendereco.html">endereço</a></li>
+                <li><a href="../paginacomentarios.html">comentários</a></li>
+                <li><a href="paginacadastro.html">administração</a></li>
+            </ul>
+        </div>
+        <div id="logo">
+            <img src="../imagemlogo/logongcar.JPG" alt="logongcar" height="120" width="120">
+        </div>
+    </nav>
+</header>
+
+<h2>CADASTRO DE SERVIÇOS</h2>
+<form>
+    <label for="nome">Serviço:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="descricao">Descrição:</label>
+    <textarea id="descricao" name="descricao" required></textarea><br><br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" required><br><br>
+
+    <input type="submit" value="Cadastrar">
+</form>
+<table border="1">
+    <tr>
+        <th>Nome do Objeto</th>
+        <th>Descrição</th>
+        <th>Quantidade</th>
+        <th>Ações</th>
+    </tr>
+    <tr>
+        <td>Serviço 1</td>
+        <td>Descrição do Serviço 1</td>
+        <th>10</th>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Serviço 2</td>
+        <td>Descrição do Serviço 2</td>
+        <th>5</th>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Serviço 3</td>
+        <td>Descrição do Serviço 3</td>
+        <th>20</th>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td>Serviço 4</td>
+        <td>Descrição do Serviço 4</td>
+        <th>30</th>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+</table>
+</body>
+<footer>
+    Desenvolvido por <a href="../paginasobre.html"> Garrido</a></footer>
+
+</html>
