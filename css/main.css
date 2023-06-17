@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: nome;
+  color: black;
+}
+
+body {
+  font-family: arial;
+  background-size: 100%;
+  background: 100%;
+  background-image: url("https://blog.alterdata.com.br/wp-content/uploads/2021/07/softwareparaoficinamecanica.jpeg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+ul {
+  top: 40px;
+  position: absolute;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  display: nome;
+}
+
+nav {
+  background-color: rgba(16, 16, 16, .5);
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: absolute;
+  transition: all .5s;
+}
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(350px);
+}
+
+a {
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(176, 224, 230);
+  color: black;
+}
+
+label {
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+
+.container {
+  text-align: center;
+  color: rgb(251, 251, 251) rgb(0, 140, 255);
+  text-shadow: 2px 0px 10px cyan;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+
+
+
+}
+
+p {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  color: #fff;
+  font-family: Verdana, Tahoma, sans-serif, geneva, Tahoma, sans-serif;
+  text-shadow: 2px 0px 10px cyan;
+  top: 60%;
+  left: 0%;
+  transform: translatex(-50%) translateY(-50%;)
+
+}
+
+.logo {
+  position: fixed;
+  left: 12%;
+  top: 10%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.footer-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
