@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    top: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: rgba(16, 16, 16, 0.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+a {
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    text-align: center;
+    color: rgb(251, 251, 251);
+    text-shadow: 2px 0px 10px cyan;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+#h1 {
+    color: rgb(251, 251, 251);
+    text-shadow: 2px 0px 10px cyan;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    display: flex;
+    top: 30%;
+    left: 100%;
+    right: 100%;
+}
+
+.lista {
+    color: white;
+    top: 10%;
+    right: 5%;
+    left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 85px;
+    line-height: 70px;
+}
+
+.footer-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
