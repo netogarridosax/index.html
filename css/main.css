@@ -65,8 +65,6 @@ label {
 p {
   text-align: center;
   font-size: 70px;
-  margin: 0;
-  padding: 0;
   position: absolute;
   color: #fff;
   font-family: 'Orbitron', sans-serif;
@@ -75,6 +73,7 @@ p {
   left: 30%;
   right: 30%;
   transform: translateX(-10%) translateY(-20%);
+  margin-top: -5%;
 }
 
 .imagem {
@@ -97,4 +96,5 @@ p {
   bottom: 0;
   left: 0;
   width: 100%;
+  color: white;
 }

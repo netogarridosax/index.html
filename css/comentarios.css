@@ -75,6 +75,7 @@ label {
     bottom: 0;
     left: 0;
     width: 100%;
+    color: white;
 }
 
 .logo {
@@ -84,9 +85,9 @@ label {
 }
 
 .caixa {
-    background-color:rgb(245, 117, 5);
+    background-color: rgb(245, 117, 5);
     padding: 1px;
     color: rgb(10, 10, 10);
     margin-top: 5%;
 
-  }
+}
