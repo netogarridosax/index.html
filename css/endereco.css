@@ -20,9 +20,12 @@ input[type="checkbox"] {
 
 body {
     background-color: rgb(0, 0, 0);
+    background-image: url("https://images.pexels.com/photos/3822850/pexels-photo-3822850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
 }
 
-.menu{
+.menu {
     margin-top: 20%;
     height: 20px;
 }
@@ -59,14 +62,34 @@ label {
 
 
 .h1 {
-    text-align: center;
     color: rgb(251, 251, 251);
-    text-shadow: 2px 0px 10px cyan;
+    text-shadow: 2px 0px 10px rgb(43, 45, 45);
     font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    height: 80vh;
+    margin: 0;
+}
+
+.h2 {
+    color: white;
+    text-shadow: 2px 0px 10px rgb(43, 45, 45);
+    margin-left: 30%;
+}
+
+#p {
+    color: white;
+    text-shadow: 2px 0px 10px rgb(43, 45, 45);
+    margin-left: 30%;
+    margin-inline-end: 55%
+}
+
+#tel {
+    color: white;
+    text-shadow: 2px 0px 10px rgb(43, 45, 45);
+    margin-left: 70%;
 }
 
 .lista {
@@ -97,4 +120,15 @@ label {
     bottom: 0;
     left: 0;
     width: 100%;
-  }
+}
+
+/*#tarja-preta {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}*/
