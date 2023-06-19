@@ -6,44 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NG CAR SERVICE</title>
+  <link rel="stylesheet" href="../css/login.css">
+
 </head>
 
 
 <body>
-  <ul>
-    <li><a href="../index.html">página inicial</a></li>
-    <li><a href="../paginaservicos.html">serviços</a></li>
-    <li><a href="../paginasobre.html">sobre</a></li>
-    <li><a href="../paginaendereco.html">endereço</a></li>
-    <li><a href="../paginacomentarios.html">comentários</a></li>
-    <li><a href="paginacadastro.html">administração</a></li>
-    <li><a href="paginacadastrodeservico.html">cadastro de serviço</a></li>
-    <li><a target="_blank" href="https://www.canva.com/projects">Site Modelo</a></li>
-  </ul>
+  <input type="checkbox" id="chec">
+  <label for="chec">
+    <img src="../imagemlogo/cardapio.png" class="menu">
+  </label>
+  <nav>
+    <div>
+      <ul>
+        <li><a href="../index.html">página inicial</a></li>
+        <li><a href="../paginaservicos.html">serviços</a></li>
+        <li><a href="../paginasobre.html">sobre</a></li>
+        <li><a href="../paginaendereco.html">endereço</a></li>
+        <li><a href="../paginacomentarios.html">comentários</a></li>
+        <li><a href="paginacadastro.html">administração</a></li>
+        <li><a href="paginacadastrodeservico.html">cadastro de serviço</a></li>
+        <li><a target="_blank" href="https://www.canva.com/projects">Site Modelo</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
 
-  <div id="logo">
-    <img src="../imagemlogo/logongcar.JPG" alt="logongcar" height="120" width="120">
 
+<body>
+  <div>
+    <img src="../imagemlogo/logongcar.png" alt="logongcar" class="logo">
   </div>
 
-  <title>Página de Login</title>
-  </head>
-
-  <body>
-
-    <h1>Página de Login</h1>
-
-    <form action="processar_login.php" method="post">
-      <label for="username">Nome de usuário:</label><br>
-      <input type="text" id="username" name="username" required><br><br>
-      <label for="password">Senha:</label><br>
-      <input type="password" id="password" name="password" required><br><br>
-      <input type="submit" value="Entrar">
-    </form>
-
-  </body>
-  <footer>
-    Desenvolvido por <a href="../paginasobre.html"> Garrido</a>
+  <form action="processar_login.php" method="post">
+    <label for="username">Nome de usuário:</label><br>
+    <input type="text" id="username" name="username" required><br><br>
+    <label for="password">Senha:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Entrar">
+  </form>
+  <footer class="footer-text">
+    Desenvolvido por <a href="../paginasobre.html">Garrido</a>
   </footer>
+
+</body>
 
 </html>

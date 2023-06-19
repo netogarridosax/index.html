@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Arial;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/4488637/pexels-photo-4488637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    top: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+.menu {
+    margin-top: 20%;
+    height: 20px;
+}
+
+nav {
+    background-color: rgba(16, 16, 16, 0.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(350px);
+}
+
+
+a {
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.footer-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    margin-top: 2px;
+}
+
+.caixa {
+    background-color: rgb(245, 117, 5);
+    padding: 1px;
+    color: rgb(10, 10, 10);
+    margin-top: 5%;
+
+}
+
+.menu {
+    margin-top: 20%;
+    height: 20px;
+}
+
+ul {
+    top: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    background-color: rgba(16, 16, 16, 0.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(350px);
+}
+
+a {
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.h1 {
+    color: white;
+}
+
+/* Estilos para o logotipo */
+.logo {
+    float: left;
+    height: 100px;
+    margin-top: 2px;
+
+}
+
+/* Estilos para o formulário de login */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1%;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para o rodapé */
+.footer-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
