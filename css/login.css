@@ -150,7 +150,6 @@ label {
     color: white;
 }
 
-/* Estilos para o logotipo */
 .logo {
     float: left;
     height: 100px;
@@ -158,7 +157,6 @@ label {
 
 }
 
-/* Estilos para o formulário de login */
 form {
     max-width: 400px;
     margin: 20px auto;
@@ -166,7 +164,7 @@ form {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 form h1 {

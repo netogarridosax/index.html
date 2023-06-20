@@ -78,6 +78,10 @@ label {
     color: white;
 }
 
+#p {
+    font-size: 36px;
+  }
+
 .logo {
     float: left;
     height: 100px;
@@ -88,6 +92,7 @@ label {
     background-color: rgb(245, 117, 5);
     padding: 1px;
     color: rgb(10, 10, 10);
-    margin-top: 5%;
+    margin-top: 6%;
+    font-size: 18px;
 
 }
