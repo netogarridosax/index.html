@@ -50,9 +50,9 @@ a {
 }
 
 a:hover {
-    background-color: rgb(176, 224, 230);
+    background-color: rgba(243, 253, 255, 0.599);
     color: black;
-}
+  }
 
 label {
     padding: 15px;

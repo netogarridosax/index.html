@@ -39,7 +39,7 @@ nav {
     transition: all 0.5s;
 }
 
-input[type="checkbox"]:checked~nav {
+input[type="checkbox"]:checked ~ nav {
     transform: translateX(350px);
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(176, 224, 230);
+    background-color: rgba(243, 253, 255, 0.599);
     color: black;
 }
 
@@ -60,10 +60,9 @@ label {
     z-index: 1;
 }
 
-
 .h1 {
     color: rgb(251, 251, 251);
-    text-shadow: 2px 0px 10px rgb(43, 45, 45);
+    text-shadow: 2px -4px 10px rgb(9, 9, 9);
     font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
@@ -71,6 +70,7 @@ label {
     justify-content: center;
     height: 80vh;
     margin: 0;
+    font-weight: bold;
 }
 
 .h2 {
@@ -79,17 +79,25 @@ label {
     margin-left: 30%;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        '#p #tel';
+    gap: 0px;
+    padding: 300px 170px 70px 150px;
+    width: auto;
+}
+
 #p {
     color: white;
-    text-shadow: 2px 0px 10px rgb(43, 45, 45);
     margin-left: 30%;
-    margin-inline-end: 55%
+    margin-inline-end: 55%;
 }
 
 #tel {
     color: white;
-    text-shadow: 2px 0px 10px rgb(43, 45, 45);
     margin-left: 70%;
+    margin-inline-end: 10%;
 }
 
 .lista {
@@ -104,15 +112,14 @@ label {
 }
 
 .logo {
+    text-align: center;
     float: left;
-    height: 100px;
-    margin-top: 35px;
+    margin-top: 4%;
 }
 
-.imagem {
-    float: left;
-    height: 300px;
-    margin-top: 160px;
+.logo img {
+    max-width: 100%;
+    height: 100px;
 }
 
 .footer-text {
@@ -123,13 +130,12 @@ label {
     color: white;
 }
 
-/*#tarja-preta {
+#tarja-preta {
     position: absolute;
     left: 0;
     width: 100%;
     height: 50px;
     background-color: black;
     color: white;
-    text-align: center;
     padding: 60px;
-}*/
+}

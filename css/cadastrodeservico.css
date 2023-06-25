@@ -40,7 +40,7 @@ nav {
     transition: all 0.5s;
 }
 
-input[type="checkbox"]:checked~nav {
+input[type="checkbox"]:checked ~ nav {
     transform: translateX(350px);
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(176, 224, 230);
+    background-color: rgba(243, 253, 255, 0.599);
     color: black;
 }
 
@@ -65,9 +65,7 @@ label {
     float: left;
     height: 100px;
     margin-top: 2px;
-
 }
-
 
 .h1 {
     color: #fff;
@@ -89,7 +87,6 @@ table {
     width: 50%;
     border-collapse: collapse;
     background-color: rgba(0, 0, 0, 0.481);
-
 }
 
 table th,
@@ -110,7 +107,6 @@ table td button {
     border: none;
     cursor: pointer;
     margin-right: 5px;
-
 }
 
 table td button:last-child {
@@ -128,7 +124,6 @@ form label {
     margin-bottom: 10px;
     padding: 2%;
     margin-top: 0%;
-
 }
 
 form input,
@@ -137,7 +132,6 @@ form textarea {
     padding: 4px;
     margin-bottom: 10px;
     border-radius: 15px;
-
 }
 
 form input[type="submit"] {
@@ -148,8 +142,6 @@ form input[type="submit"] {
     cursor: pointer;
     border-radius: 10px;
     width: 12%;
-
-
 }
 
 .footer-text {
