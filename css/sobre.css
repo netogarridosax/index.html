@@ -20,6 +20,7 @@ input[type="checkbox"] {
 
 body {
     background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
     background-image: url("https://images.pexels.com/photos/4488637/pexels-photo-4488637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
