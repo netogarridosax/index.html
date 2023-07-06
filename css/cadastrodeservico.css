@@ -86,18 +86,31 @@ h2 {
 table {
     width: 50%;
     border-collapse: collapse;
-    background-color: rgba(0, 0, 0, 0.481);
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: 2em;
 }
 
 table th,
 table td {
     padding: 10px;
     border: 1px solid #ccc;
+    color: white;
+    text-align: center;
 }
 
 table th {
-    background-color: rgba(0, 0, 0, 0.481);
-    text-align: left;
+    background-color: rgba(10, 10, 10, 0.481);
+    text-align: center;
 }
 
 table td button {
@@ -107,6 +120,7 @@ table td button {
     border: none;
     cursor: pointer;
     margin-right: 5px;
+    border-radius: 4px;
 }
 
 table td button:last-child {
@@ -114,35 +128,37 @@ table td button:last-child {
 }
 
 /* Estilo do formulário */
-form {
-    margin-top: 1%;
+.form {
     padding: 20%;
+    text-align: start;
 }
 
-form label {
+.form label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 2%;
     margin-top: 0%;
 }
 
-form input,
-form textarea {
+.form input,
+.form textarea {
     width: 50%;
-    padding: 4px;
+    padding: 20px;
     margin-bottom: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
-form input[type="submit"] {
+.form input[type="submit"] {
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    width: 12%;
+    width: 15%;
 }
+
+
 
 .footer-text {
     position: fixed;

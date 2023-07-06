@@ -80,41 +80,28 @@ label {
 
 .grid-container {
     display: grid;
-    grid-template-areas:
-        'caixa1 caixa2 caixa3';
-    gap: 60px;
-    padding: 300px 170px 70px 150px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px;
+    padding: 200px 150px 70px 5px;
     width: auto;
-    line-height: 50px;
-
+    line-height: 40px;
 }
 
-.caixa1 {
-    border: 2px solid, black;
+.caixa {
+    /*border: 10px solid, rgb(249, 247, 247);*/
     text-align: center;
     background-color: chocolate;
-
-}
-
-.caixa2 {
-    border: 2px solid, black;
-    text-align: center;
-    background-color: chocolate;
-
-}
-
-.caixa3 {
-    border: 2px solid, black;
-    text-align: center;
-    background-color: chocolate;
-    padding: 2px;
-
-
+    padding: 4px;
+    border-radius: 10px;
 }
 
 #img {
     border-radius: 50px;
     margin-top: 5%;
+}
+h2{
+    text-align: center;
+    color: white;
 }
 
 

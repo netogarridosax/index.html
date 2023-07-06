@@ -4,16 +4,51 @@
 }
 
 body {
-  font-family: Arial;
   background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-image: url("https://blog.alterdata.com.br/wp-content/uploads/2021/07/softwareparaoficinamecanica.jpeg");
+  background-color: #090909;
 }
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* nav {
+  background-color: rgba(16, 16, 16, 0.5);
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: absolute;
+  transition: all 0.5s;
+} */
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(350px);
+}
+
+.menu {
+  margin-top: 20%;
+  height: 20px;
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  
+}
+
 
 nav {
   background-color: #33333390;
-  color: #fff;
+  color: #090909;
   position: fixed;
   width: 100%;
 }
@@ -31,7 +66,7 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 10px 20px;
-  color: var(--cor1);
+  color: var(--cor2);
   text-decoration: none;
 }
 
@@ -39,10 +74,14 @@ nav ul li a:hover {
   background-color: #555;
 }
 
+a{
+  color: var(--cor2);
+}
+
 .logo {
   text-align: center;
   float: left;
-  margin-top: -18%;
+  margin-top: 5%;
 }
 
 .logo img {
@@ -54,57 +93,143 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-h1 {
+#h1 {
+  width: 100%;
+  margin-top: 1em;
+  font-size: 4em;
   text-align: center;
-  font-size: 70px;
-  position: absolute;
-  color: var(--cor3);
   font-family: 'Orbitron', sans-serif;
   text-shadow: 2px 0px 10px cyan;
-  top: 60%;
-  left: 30%;
-  right: 30%;
-  transform: translateX(-10%) translateY(-20%);
-  margin-top: -5%;
+  color: var(--cor2);
 }
 
 :root {
   --cor1: yellow;
   --cor2: white;
-  --cor3: rgba(24, 247, 210, 0.823);
+  --cor3: rgba(245, 8, 8, 0.823);
   --cor4: green;
   --cor5: black;
 }
 
-.container {
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: white;
-  margin-top: 20%;
-  align-items: stretch;
-  margin-bottom: 1%;
-  justify-content: space-evenly;
+.section {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10em;
+  padding: 1em;
 }
 
-footer {
-  background-color: #45444471;
-  padding: 20px;
-  text-align: left;
-  font-size: 14px;
-  color: var(--cor5);
+#article1 {
+  max-width: 600px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 1rem;
+  color: var(--cor2);
+  background-image: url("https://prd-us-brc-wapp-01.azurewebsites.net/content/images/2020/11/alinhamento-e-balanceamento-saiba-para-que-servem-e-quando-fazer.jpg");
 }
-
-footer a {
-  color: var(--cor1);
+#article2 {
+  max-width: 600px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 1rem;
+  color: var(--cor2);
+  background-image: url("https://images.pexels.com/photos/4116193/pexels-photo-4116193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.link{
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+h1,
+#div {
+  color: var(--cor1);
+  text-shadow: 2px 0px 10px rgb(0, 12, 12);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
+
+h2 {
+  color: var(--cor2);
+  text-shadow: 2px 0px 10px cyan;
+  font-size: 50px;
+}
+
+h4 {
+  color: var(--cor2);
+  text-align: center;
+}
+
+#linha1 {
+  color: var(--cor1);
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2%;
+  text-shadow: 2px 0px 10px rgb(22, 22, 22);
+
+}
+
+#linha2 {
+  color: blue;
+  background-color: var(--cor1);
+  text-shadow: 2px 0px 10px rgb(249, 245, 245);
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 15em;
+}
+
+#linha3 {
+  color: var(--cor1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  text-shadow: 2px 0px 10px rgb(22, 22, 22);
+  padding-left: 1em;
+}
+
+#linha4 {
+  color: var(--cor1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+#linha5 {
+  font-size: 1em;
+  color: var(--cor2);
+}
+
+
+#div {
+  color: var(--color2);
+  width: 30em;
+  height: 8em;
+}
+
+/*.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 100px;
+  /*padding: 200px 150px 70px 5px;
+  width: auto;
+  line-height: 40px;
+}
+
+/*#targeta-preta {
+  width: 25em;
+  height: 45px;
+  background-color: var(--color3);
+  padding-top: 9em;
+  position: absolute;
+}*/
+
+
+
+.footer-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: var(--cor2);
+}
+
